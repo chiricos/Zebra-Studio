@@ -117,7 +117,7 @@ nav ul li a:hover{
 
 
 footer{
-    background: url('/images/footer-body.png') no-repeat;
+    background: url('../images/footer-body.png') no-repeat;
     color: #b3b3b3;
     height: 390px;
 }

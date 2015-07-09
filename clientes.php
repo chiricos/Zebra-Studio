@@ -20,16 +20,15 @@
 <body>
 <div class="panel_up"></div>
 
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
 <div id="wrapper">
 
-    <?php include('slider.php'); ?>
-    <?php include('content.php'); ?>
+    <?php include('clientes_content.php'); ?>
 
 </div>
 
-    <?php include('footer.php') ?>
+<?php include('footer.php') ?>
 
 </body>
 </html>

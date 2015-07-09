@@ -104,6 +104,8 @@ nav ul li{
 
 nav ul li a{
     cursor: pointer;
+    color:rgb(83, 83, 83);
+    text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -148,6 +150,8 @@ footer{
 
 #footer_menu ul li a{
     cursor: pointer;
+    color:rgb(83, 83, 83);
+    text-decoration: none;
 }
 
 #footer_menu  ul li a:hover{
@@ -220,15 +224,6 @@ footer{
     display: none;
     height: 100%;
     width: 100%;
-    /*animation-name: move;
-    animation-duration: 3s;
-}
-
-@keyframes move {
-    0% {  margin-left: 100%;
-        width: 300%}
-    100% {   margin-left: 0;
-        width: 100%}*/
 }
 
 
@@ -270,7 +265,7 @@ footer{
     height: 410px;
 }
 
-#content_works figure{
+.work_figure{
     left: 4px;
     margin: 0;
     position: relative;
@@ -647,18 +642,45 @@ footer{
     animation-name: fadeInLeft;
 }
 
+/*******************************************************
+******************** CLIENTES **************************
+*******************************************************/
 
+.content_clientes{
+    display: inline-block;
+    height: 140px;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 24%;
+}
 
+.content_clientes img{
+    -webkit-filter: grayscale(100%);
+    cursor: progress;
+}
 
+.content_clientes img:hover{
+    -webkit-filter: grayscale(0%);
+}
 
+.selected_page{
+    text-align: right;
+}
 
+.selected_page p{
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+    text-align: center;
+    width: 20px;
+}
 
-
-
-
-
-
-
+.border-p{
+    border-bottom: 2px solid;
+}
 
 
 

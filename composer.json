@@ -1,0 +1,20 @@
+{
+
+  "name":"zebra studio",
+  "description":"pagina de zebra studio",
+  "type":"project",
+  "authors": [
+    {
+      "name":"edward diaz (DRAWDE)",
+      "email":"edwarddia92@gmail.com"
+    }
+  ],
+  "required":{
+    "php":">=5.3.0",
+    "phpmailer/phpmailer": "~5.2"
+
+  },
+  "require": {
+    "phpmailer/phpmailer": "^5.2"
+  }
+}

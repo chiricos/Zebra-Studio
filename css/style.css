@@ -304,6 +304,7 @@ footer{
 }
 
 .works_zebra_hover{
+    overflow: hidden;
     position: relative;
     top: -401px;
 }
@@ -318,12 +319,51 @@ footer{
 }
 
 .works_zebra_hover figure div:hover{
-   /* -webkit-animation-name: flipInY;
-    animation-name: flipInY;
-    animation-duration: 3s;*/
-    background: rgba(122, 97, 92, 0.63);
+    background: rgba(122, 97, 92, 0.93);
     color: white;
 }
+
+/**
+*
+*Animaciones
+*
+**/
+.hover_figure_one:hover{
+    -webkit-animation-name: moveRight;
+    animation-name: moveRight;
+    animation-duration: 2s;
+}
+
+.hover_figure_two:hover{
+    -webkit-animation-name: moveLeft;
+    animation-name: moveLeft;
+    animation-duration: 2s;
+}
+
+.hover_figure_three:hover{
+    -webkit-animation-name: moveRight;
+    animation-name: moveRight;
+    animation-duration: 2s;
+}
+
+.hover_figure_four:hover{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+}
+
+.hover_figure_five:hover{
+    -webkit-animation-name: moveLeft;
+    animation-name: moveLeft;
+    animation-duration: 2s;
+}
+
+
+/**
+*
+* End Animaciones
+*
+**/
 
 .works_zebra_hover figure div p{
     position: relative;
@@ -373,6 +413,7 @@ footer{
     top: -37px;
     width: 407px;
 }
+
 
 /*********************************** Animaciones *********************************/
 
@@ -462,10 +503,65 @@ footer{
     animation-name: flipInY;
 }
 
+@-webkit-keyframes moveRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-30%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.moveRight {
+    -webkit-animation-name: moveRight;
+    animation-name: moveRight;
+}
+
+
+@-webkit-keyframes moveLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.moveRight {
+    -webkit-animation-name: moveLeft;
+    animation-name: moveLeft;
+}
+
 @-webkit-keyframes fadeInUp {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(20px);
+        -webkit-transform: translateY(50px);
     }
     100% {
         opacity: 1;
@@ -476,10 +572,9 @@ footer{
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(50px);
     }
     100% {
-        background: red;
         opacity: 1;
         transform: translateY(0);
     }
@@ -489,6 +584,7 @@ footer{
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
 }
+
 
 @-webkit-keyframes bounceOutLeft {
     0% {

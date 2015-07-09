@@ -98,13 +98,13 @@
                 <div class="content_all_work">
                     <section class="works_zebra">
                         <figure>
-                            <img src="images/tv.jpg">
-                            <img src="images/web.jpg">
+                            <img class="animation_one" src="images/tv.jpg">
+                            <img class="animation_two" src="images/web.jpg">
                         </figure>
                         <figure>
-                            <img src="images/multimedia.jpg">
-                            <img src="images/app.jpg">
-                            <img src="images/fotografia.jpg">
+                            <img class="animation_three" src="images/multimedia.jpg">
+                            <img class="animation_four" src="images/app.jpg">
+                            <img class="animation_five" src="images/fotografia.jpg">
                         </figure>
                     </section>
                     <section class="works_zebra_hover">
@@ -128,6 +128,7 @@
             </div>
         </section>
     </div>
+
 </div>
 <footer>
     <div id="footer_up"></div>

@@ -1,10 +1,4 @@
-<div class="content">
-    <section>
-        <div id="content_works">
-            <div class="content_line">
-                <div class="content_line1"></div>
-                <div class="content_line2"></div>
-            </div>
+
             <div class="content_all_work">
                 <section class="works_zebra">
                     <figure class="work_figure">
@@ -30,11 +24,3 @@
                 </section>
             </div>
 
-
-            <div class="content_line">
-                <div class="content_line2" style="margin: 30px auto auto"></div>
-                <div class="content_line1"></div>
-            </div>
-        </div>
-    </section>
-</div>

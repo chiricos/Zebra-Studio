@@ -20,11 +20,9 @@
 <body>
 <div class="panel_up"></div>
 
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
 <div id="wrapper">
-
-    <?php include('slider.php'); ?>
 
     <div class="content">
         <section>
@@ -34,7 +32,7 @@
                     <div class="content_line2"></div>
                 </div>
 
-                <?php include('content.php'); ?>
+                <?php include('contactenos_content.php'); ?>
 
                 <div class="content_line">
                     <div class="content_line2" style="margin: 30px auto auto"></div>
@@ -44,9 +42,11 @@
         </section>
     </div>
 
+
+
 </div>
 
-    <?php include('footer.php') ?>
+<?php include('footer.php') ?>
 
 </body>
 </html>

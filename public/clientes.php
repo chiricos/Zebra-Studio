@@ -24,7 +24,25 @@
 
 <div id="wrapper">
 
-    <?php include('clientes_content.php'); ?>
+    <div class="content">
+        <section>
+            <div id="content_works">
+                <div class="content_line">
+                    <div class="content_line1"></div>
+                    <div class="content_line2"></div>
+                </div>
+
+                <?php include('clientes_content.php'); ?>
+
+                <div class="content_line">
+                    <div class="content_line2" style="margin: 30px auto auto"></div>
+                    <div class="content_line1"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
 
 </div>
 

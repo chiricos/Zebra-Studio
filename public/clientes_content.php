@@ -1,11 +1,4 @@
-<div class="content">
-    <section>
-        <div id="content_works">
-            <div class="content_line">
-                <div class="content_line1"></div>
-                <div class="content_line2"></div>
-            </div>
-            
+
             <div class="nuestros_clientes">
                 <img src="images/clientes/nuestros_clientes.png">
             </div>
@@ -111,10 +104,3 @@
                 <p id="clientes_two">2</p>
             </section>
 
-            <div class="content_line">
-                <div class="content_line2" style="margin: 30px auto auto"></div>
-                <div class="content_line1"></div>
-            </div>
-        </div>
-    </section>
-</div>

@@ -18,7 +18,7 @@
                 <a>Equipo</a>
             </li>
             <li>
-                <a>Contactenos</a>
+                <a href="contactenos.php">Contactenos</a>
             </li>
         </ul>
     </section>

@@ -153,7 +153,7 @@ footer{
 
 #footer_menu ul li a{
     cursor: pointer;
-    color:rgb(83, 83, 83);
+    color:#acacac;
     text-decoration: none;
 }
 
@@ -695,8 +695,29 @@ h2{
 }
 
 
+/********************************************************
+******************** PORTAFOLIO *************************
+********************************************************/
 
+.nav_portafolio{
+    height: 60px;
+}
 
+.nav_portafolio ul li{
+    margin: 0 18px;
+}
+
+.content_portafolio figure{
+    color: #4e281c;
+    display: inline-block;
+    margin: 0;
+    width: 48%;
+    text-align: end;
+}
+
+.section_portafolio{
+
+}
 
 
 

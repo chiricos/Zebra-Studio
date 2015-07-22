@@ -3,7 +3,7 @@
         <figure class="figure_one1">
             <span class="close_pop_up">X</span>
             <img src="images/portafolio/portafolio10/titulo.png" />
-            <a target="_blank" href="http://cabarriaiqa.com/">Visitar Sitio Web.</a>
+            <a target="_blank" href="http://www.chefrito.com/">Visitar Sitio Web.</a>
         </figure>
         <figure class="figure_two">
             <img class="mac" src="images/portafolio/portafolio1/mac.png" />

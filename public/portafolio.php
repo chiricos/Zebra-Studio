@@ -37,7 +37,46 @@
                 </div>
 
                 <?php include("portafolio_content.php"); ?>
-                <?php include("portafolio1_pop_up.php"); ?>
+
+                <div class="rey hidden pop_up">
+                    <?php include("portafolio1_pop_up.php"); ?>
+                </div>
+
+                <div class="francisco hidden pop_up">
+                    <?php include("portafolio2_pop_up.php"); ?>
+                </div>
+
+                <div class="refisal hidden pop_up">
+                    <?php include("portafolio3_pop_up.php"); ?>
+                </div>
+
+                <div class="blancox hidden pop_up">
+                    <?php include("portafolio4_pop_up.php"); ?>
+                </div>
+
+                <div class="trocipollo hidden pop_up">
+                    <?php include("portafolio5_pop_up.php"); ?>
+                </div>
+
+                <div class="condimentos hidden pop_up">
+                    <?php include("portafolio6_pop_up.php"); ?>
+                </div>
+
+                <div class="nts hidden pop_up">
+                    <?php include("portafolio7_pop_up.php"); ?>
+                </div>
+
+                <div class="mago hidden pop_up">
+                    <?php include("portafolio8_pop_up.php"); ?>
+                </div>
+
+                <div class="cabarria hidden pop_up">
+                    <?php include("portafolio9_pop_up.php"); ?>
+                </div>
+
+                <div class="chefrito hidden pop_up">
+                    <?php include("portafolio10_pop_up.php"); ?>
+                </div>
 
                 <div class="content_line">
                     <div class="content_line2" style="margin: 30px auto auto"></div>

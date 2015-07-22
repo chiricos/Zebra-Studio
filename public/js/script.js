@@ -50,31 +50,81 @@ $(document).ready(function(){
 
     $(".close_pop_up").on('click',function()
     {
-       $(".portafolio_pop_up").addClass("hidden");
+       $(".pop_up").addClass("hidden");
     });
 
-    $(".portafolio_pop_up_numeros p").eq(0).on('click',function()
+    $(".content_portafolio figure").eq(0).on('click',function()
+    {
+        $(".rey").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(1).on('click',function()
+    {
+        $(".francisco").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(2).on('click',function()
+    {
+        $(".refisal").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(3).on('click',function()
+    {
+        $(".blancox").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(4).on('click',function()
+    {
+        $(".trocipollo").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(5).on('click',function()
+    {
+        $(".condimentos").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(6).on('click',function()
+    {
+        $(".nts").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(7).on('click',function()
+    {
+        $(".mago").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(8).on('click',function()
+    {
+        $(".cabarria").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(9).on('click',function()
+    {
+        $(".chefrito").removeClass("hidden");
+    });
+
+    $(".portafolio_numbero_one").on('click',function()
     {
         $(".screen").addClass("hidden");
         $(".screen1").removeClass("hidden");
     });
 
-    $(".portafolio_pop_up_numeros p").eq(1).on('click',function()
+    $(".portafolio_numbero_two").on('click',function()
     {
         $(".screen").addClass("hidden");
         $(".screen2").removeClass("hidden");
     });
-    $(".portafolio_pop_up_numeros p").eq(2).on('click',function()
+    $(".portafolio_numbero_three").on('click',function()
     {
         $(".screen").addClass("hidden");
         $(".screen3").removeClass("hidden");
     });
-    $(".portafolio_pop_up_numeros p").eq(3).on('click',function()
+    $(".portafolio_numbero_four").on('click',function()
     {
         $(".screen").addClass("hidden");
         $(".screen4").removeClass("hidden");
     });
-    $(".portafolio_pop_up_numeros p").eq(4).on('click',function()
+    $(".portafolio_numbero_five").on('click',function()
     {
         $(".screen").addClass("hidden");
         $(".screen5").removeClass("hidden");

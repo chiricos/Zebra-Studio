@@ -583,6 +583,20 @@ footer{
     animation-name: fadeInUp;
 }
 
+@keyframes pop_up_screen {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pop_up_screen {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
 
 @-webkit-keyframes bounceOutLeft {
     0% {
@@ -715,15 +729,83 @@ h2{
     text-align: end;
 }
 
-.section_portafolio{
+.portafolio_pop_up{
+    background-color: rgba(67, 67, 67, 0.91);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.content_pop_up{
+    background: #e4e7e9 url("../images/portafolio/portafolio1/fondo.png") no-repeat 81px 75px;
+    height:480px;
+    margin: 200px auto !important;
+    width:913px !important;
+}
+
+.content_pop_up .figure_one{
+    left: -79px;
+    position: relative;
+    top: -18px;
+}
+
+.figure_one span{
+    color: #5CC1CF;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    left: 105px;
+    position: relative;
+    top: -10px;
+}
+
+.figure_one a{
+    color: #683E2E;
+    float: right;
+    left: 121px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+}
+
+.mac{
+    left: 223px;
+    position: relative;
+    top: -67px;
+}
+
+.screen{
+    -webkit-animation-name: pop_up_screen;
+    animation-name: pop_up_screen;
+    animation-duration: 1s;
+    left: 260px;
+    position: relative;
+    top: -917px;
 
 }
 
+.brillo{
+    left: 625px;
+    position: relative;
+    top: -612px;
+    z-index: 2;
+}
 
+.portafolio_pop_up_numeros{
+    left: 740px;
+    position: relative;
+    top: -850px;
+    color: white;
+}
 
-
-
-
+.portafolio_pop_up_numeros p{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 15px 9px;
+}
 
 
 

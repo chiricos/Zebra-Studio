@@ -37,6 +37,7 @@
                 </div>
 
                 <?php include("portafolio_content.php"); ?>
+                <?php include("portafolio1_pop_up.php"); ?>
 
                 <div class="content_line">
                     <div class="content_line2" style="margin: 30px auto auto"></div>

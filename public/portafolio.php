@@ -78,6 +78,26 @@
                     <?php include("portafolio10_pop_up.php"); ?>
                 </div>
 
+                <div class="campiña hidden pop_up">
+                    <?php include("portafolio11_pop_up.php"); ?>
+                </div>
+
+                <div class="durena hidden pop_up">
+                    <?php include("portafolio12_pop_up.php"); ?>
+                </div>
+
+                <div class="chefrito hidden pop_up">
+                    <?php include("portafolio10_pop_up.php"); ?>
+                </div>
+
+                <div class="chefrito hidden pop_up">
+                    <?php include("portafolio10_pop_up.php"); ?>
+                </div>
+
+                <div class="chefrito hidden pop_up">
+                    <?php include("portafolio10_pop_up.php"); ?>
+                </div>
+
                 <div class="content_line">
                     <div class="content_line2" style="margin: 30px auto auto"></div>
                     <div class="content_line1"></div>

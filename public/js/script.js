@@ -103,6 +103,16 @@ $(document).ready(function(){
         $(".chefrito").removeClass("hidden");
     });
 
+    $(".content_portafolio figure").eq(10).on('click',function()
+    {
+        $(".campiña").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(11).on('click',function()
+    {
+        $(".durena").removeClass("hidden");
+    });
+
     $(".portafolio_numbero_one").on('click',function()
     {
         $(".screen").addClass("hidden");

@@ -737,6 +737,7 @@ h2{
     background-color: rgba(67, 67, 67, 0.91);
     height: 100%;
     left: 0;
+    overflow: scroll;
     position: fixed;
     width: 100%;
     top: 0;
@@ -827,21 +828,21 @@ h2{
 }
 
 .content_pop_up12{
-    background: #e4e7e9 url("../images/portafolio/portafolio13/fondo.png") no-repeat -22px 56px;
+    background: #e4e7e9 url("../images/portafolio/portafolio13/fondo.png") no-repeat 2px 435px;
     height:480px;
     margin: 100px auto !important;
     width:913px !important;
 }
 
 .content_pop_up13{
-    background: #e4e7e9 url("../images/portafolio/portafolio14/fondo.png") no-repeat -22px 56px;
+    background: #e4e7e9 url("../images/portafolio/portafolio14/fondo.png") no-repeat 16px 99px;
     height:480px;
     margin: 100px auto !important;
     width:913px !important;
 }
 
 .content_pop_up14{
-    background: #e4e7e9 url("../images/portafolio/portafolio15/fondo.png") no-repeat -22px 56px;
+    background: #e4e7e9 url("../images/portafolio/portafolio15/fondo.png") no-repeat -68px 83px;
     height:480px;
     margin: 100px auto !important;
     width:913px !important;

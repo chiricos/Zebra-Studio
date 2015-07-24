@@ -26,10 +26,10 @@
         <nav>
             <ul>
                 <li>
-                    <a>Zebra Studio</a>
+                    <a href="index.php">Zebra Studio</a>
                 </li>
                 <li>
-                    <a href="portafolio.php">Portafolio</a>
+                    <a href="portafolio_web.php">Portafolio</a>
                 </li>
                 <li>
                     <a>Servicios</a>

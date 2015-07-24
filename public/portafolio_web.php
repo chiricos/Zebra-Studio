@@ -86,16 +86,16 @@
                     <?php include("portafolio12_pop_up.php"); ?>
                 </div>
 
-                <div class="chefrito hidden pop_up">
-                    <?php include("portafolio10_pop_up.php"); ?>
+                <div class="brisa hidden pop_up">
+                    <?php include("portafolio13_pop_up.php"); ?>
                 </div>
 
-                <div class="chefrito hidden pop_up">
-                    <?php include("portafolio10_pop_up.php"); ?>
+                <div class="benfor hidden pop_up">
+                    <?php include("portafolio14_pop_up.php"); ?>
                 </div>
 
-                <div class="chefrito hidden pop_up">
-                    <?php include("portafolio10_pop_up.php"); ?>
+                <div class="2014 hidden pop_up">
+                    <?php include("portafolio15_pop_up.php"); ?>
                 </div>
 
                 <div class="content_line">

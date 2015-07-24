@@ -113,6 +113,21 @@ $(document).ready(function(){
         $(".durena").removeClass("hidden");
     });
 
+    $(".content_portafolio figure").eq(12).on('click',function()
+    {
+        $(".brisa").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(13).on('click',function()
+    {
+        $(".benfor").removeClass("hidden");
+    });
+
+    $(".content_portafolio figure").eq(14).on('click',function()
+    {
+        $(".2014").removeClass("hidden");
+    });
+
     $(".portafolio_numbero_one").on('click',function()
     {
         $(".screen").addClass("hidden");

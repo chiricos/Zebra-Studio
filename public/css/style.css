@@ -935,8 +935,44 @@ h2{
     margin: 15px 9px;
 }
 
+/******************************************
+************** CONTACTENOS ****************
+******************************************/
 
+.contactenos_content, .contactenos_image{
+    display: inline-block;
+    vertical-align: top;
+}
 
+.contactenos_image figure{
+    width: 350px;
+}
+
+.contactenos_content{
+    width: 530px;
+}
+
+input, textarea{
+    background: rgba(228, 231, 232, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.table-title{
+    padding-right: 10%;
+    padding-top: 5px;
+}
+
+.table-body{
+    width: 74%;
+}
+
+td{
+    height: 40px;
+}
 
 
 

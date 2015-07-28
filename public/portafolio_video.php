@@ -36,7 +36,7 @@
                     <div class="content_line2"></div>
                 </div>
 
-                <?php include("portafolio_web_content.php"); ?>
+                <?php include("portafolio_video_content.php"); ?>
 
                 <div class="rey hidden pop_up">
                     <?php include("portafolio1_web_pop_up.php"); ?>

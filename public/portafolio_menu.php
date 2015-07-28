@@ -1,10 +1,10 @@
 <nav class="nav_portafolio">
     <ul>
         <li>
-            <a>Video / Comerciales</a>
+            <a href="portafolio_video.php">Video / Comerciales</a>
         </li>
         <li>
-            <a>Web</a>
+            <a href="portafolio_web.php">Web</a>
         </li>
         <li>
             <a>Apps</a>

@@ -55,7 +55,7 @@
     </section>
     <section class="section_portafolio hidden">
         <figure>
-            <img src="images/portafolio/portafolio12.jpg">
+            <img src="images/portafolio/portafolio13.jpg">
             <p>Brisa</p>
         </figure>
         <figure>

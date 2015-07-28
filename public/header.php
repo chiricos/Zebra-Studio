@@ -29,7 +29,7 @@
                     <a href="index.php">Zebra Studio</a>
                 </li>
                 <li>
-                    <a href="portafolio_web.php">Portafolio</a>
+                    <a href="portafolio_video.php">Portafolio</a>
                 </li>
                 <li>
                     <a>Servicios</a>

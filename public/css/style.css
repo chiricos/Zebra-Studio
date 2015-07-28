@@ -975,6 +975,25 @@ td{
 }
 
 
+/**********************************************
+**************** PORTAFOLIO VIDEO *************
+**********************************************/
+
+
+.img{
+    position:absolute;
+}
+
+.hover_img{
+    position: relative;
+    top: 0;
+    opacity: 0;
+}
+
+.hover_img:hover{
+    opacity: 1;
+}
+
 
 
 
